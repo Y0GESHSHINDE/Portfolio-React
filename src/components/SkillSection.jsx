@@ -32,7 +32,7 @@ function SkillSection() {
           Skills
         </h1>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4  2xl:grid-cols-7 place-items-center gap-10 md:ms-20 md:me-20">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 place-items-center items gap-10 md:ms-20 md:me-20">
           {skills.map((skill, index) => (
             <SkillCard key={index} Skill={skill.skill} icon={skill.icon} />
           ))}

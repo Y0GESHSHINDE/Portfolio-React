@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "../../public/images/ok.jpg"
 function AboutSection() {
   return (
     <div className="bg-[#edf2f4]  ">
@@ -12,7 +12,7 @@ function AboutSection() {
         </h1>
         <div className="  grid grid-cols-1 md:grid-cols-12 mx-auto justify-evenly container items-center md:text-[20px]  text-center p-2 md:p-4 ">
           <div className=" flex justify-center   col-span-6" >
-          <img src="../../public/images/ok.jpg" className="h-80 w-80   hidden md:flex   rounded-[20px] " alt="" srcset="" />
+          <img src={img} className="h-80 w-80   hidden md:flex   rounded-[20px] " alt="" srcset="" />
 
           </div>
           <div className="col-span-6 text-[16px] xl:me-20  ">
