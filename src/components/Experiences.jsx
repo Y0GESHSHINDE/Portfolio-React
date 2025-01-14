@@ -5,8 +5,8 @@ import ExperienceCard from "./ExpreincesCard";
 function Experiences() {
   return (
     <div className="bg-[#edf2f4] ">
-      <div className="container mx-auto">
-        <h1 className="text-center text-[12px] inconsolata-400 ">Explore My</h1>
+      <div className="container mx-auto p-10 ">
+        <h1 className="text-center text-sm uppercase tracking-wide font-light text-gray-600 ">Explore My</h1>
         <h1 className="text-center text-[28px] lg:text-[36px] leading-7 mb-5  ibm-plex-sans-medium ">
           Experiences
         </h1>

@@ -24,15 +24,15 @@ const skills = [
 function SkillSection() {
   return (
     <div className="bg-[#edf2f4] ">
-      <div className="mx-auto container p-5">
-        <h1 className="text-center text-[12px] inconsolata-400 ">
+      <div className="mx-auto container p-10  ">
+        <h1 className="text-center text-sm uppercase tracking-wide font-light text-gray-600">
           Discover My Proficiencies
         </h1>
         <h1 className="text-center text-[28px] lg:text-[36px]  ibm-plex-sans-medium mb-2 ">
           Skills
         </h1>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 place-items-center items gap-10 md:ms-20 md:me-20">
+        <div className="  grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 place-items-center items gap-10 md:ms-20 md:me-20">
           {skills.map((skill, index) => (
             <SkillCard key={index} Skill={skill.skill} icon={skill.icon} />
           ))}

@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <div>
       <div className="bg-[#edf2f4] ">
-        <div className="mx-auto container grid grid-cols-1 md:grid-cols-2 p-4 z-50  ">
+        <div className="mx-auto container grid grid-cols-1  md:grid-cols-2 p-10 z-50 pb-5  ">
           <div className="md:text-left   flex flex-col justify-center  items-center   ">
             <h1 className="ibm-plex-sans-light ">Hello 👋 , i am</h1>
             <h1 className="text-[30px] md:text-[40px] lg:text-[44px] ibm-plex-sans-bold leading-none">

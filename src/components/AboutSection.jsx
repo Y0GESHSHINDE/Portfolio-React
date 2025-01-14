@@ -3,8 +3,8 @@ import img from "../../public/images/ok.jpg"
 function AboutSection() {
   return (
     <div className="bg-[#edf2f4]  ">
-      <div className="mx-auto container p-1">
-        <h1 className="text-center text-[12px] inconsolata-400 ">
+      <div className="mx-auto container p-10 ">
+        <h1 className="text-center text-[12px] text-sm uppercase tracking-wide font-light text-gray-600">
           Get To Know More
         </h1>
         <h1 className="text-center text-[28px] lg:text-[36px] leading-7 mb-2 ibm-plex-sans-medium ">
