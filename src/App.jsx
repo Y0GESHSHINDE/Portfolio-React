@@ -1,23 +1,17 @@
-import React from 'react'
-import {BrowserRouter as Router , Route, Routes} from 'react-router-dom'
-import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import Skills from './components/Skills';
-import Project from './components/Project';
-import Contact from './components/Contact';
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import HomePage from "./Layout/HomePage";
+import '../src/app.css'
 function App() {
   return (
-    <>
-    <Navbar/>
-    <HeroSection/>
-    <AboutSection/>
-    <Skills/>
-    <Project/>
-    <Contact/>
-    </>
-  )
+    <Router>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      {/* <Route path="/about" element={<About />} /> */}
+      {/* <Route path="/profile" element={<Profile />} /> */}
+    </Routes>
+  </Router>
+  );
 }
 
-export default App
+export default App;
