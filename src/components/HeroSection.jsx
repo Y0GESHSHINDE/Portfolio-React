@@ -15,12 +15,22 @@ function HeroSection() {
               <button
                 className="border-[2px] border-black hover:bg-red-300 p-2 rounded-full text-[12px] sm:text-[14px] md:text-[20px] transition-all duration-300 ease-in-out"
                 type="button">
-                Hire me 👨🏻‍💼
+                <a
+                  href="https://www.linkedin.com/services/page/b6810233478a0a2464/"
+                  target="_blank">
+                  Hire me 👨🏻‍💼
+                </a>
               </button>
               <button
                 className="border-[2px] border-black hover:bg-red-300 p-2 rounded-full text-[12px] sm:text-[14px] md:text-[20px] transition-all duration-300 ease-in-out"
                 type="button">
-                Resume 📃
+                <a
+                  href="../../public/Files/YogeshShinde.pdf"
+                  download="YogeshShinde.pdf" 
+                  className="text-decoration-none"
+                >
+                  Resume 📃
+                </a>
               </button>
             </div>
           </div>
