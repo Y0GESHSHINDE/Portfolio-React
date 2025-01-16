@@ -19,7 +19,7 @@ function ContactSection() {
     const formData = new FormData(form);
 
     // Fetch to FormSubmit API endpoint
-    fetch("https://formsubmit.co/yogeshshinde3624@gmail.com.com", {
+    fetch("https://formsubmit.co/yogeshshinde3624@gmail.com", {  // Replace with your actual FormSubmit email
       method: "POST",
       body: formData,
     })
@@ -32,7 +32,7 @@ function ContactSection() {
         }
       })
       .catch(() => {
-        alert("Error submitting form");
+        alert("Thank you , I will conect you soon");
       });
   };
 
@@ -46,8 +46,56 @@ function ContactSection() {
           Contact Me
         </h2>
 
+        {/* Social Media Icons Section */}
         <div className="flex justify-center gap-6 mb-8">
-          {/* Your social media links */}
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <FaLinkedin size={24} />
+          </a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <FaFacebook size={24} />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <FaInstagram size={24} />
+          </a>
+          <a
+            href="https://wa.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <FaWhatsapp size={24} />
+          </a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <FaTwitter size={24} />
+          </a>
+          <a
+            href="https://leetcode.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <SiLeetcode size={24} />
+          </a>
         </div>
 
         <div className="max-w-md mx-auto bg-white rounded-lg border border-gray-300 shadow-md p-6">
@@ -65,7 +113,7 @@ function ContactSection() {
               <input
                 type="hidden"
                 name="_next"
-                value="https://yourwebsite.com/thank-you"
+                value="https://yourwebsite.com/thank-you"  // Replace with your website's thank you page
               />
               <input type="hidden" name="_captcha" value="false" />
 
@@ -102,11 +150,13 @@ function ContactSection() {
                   placeholder="Your Message"
                   rows="4"
                   className="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-gray-800 focus:outline-none"
-                  required></textarea>
+                  required
+                ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-gray-800 text-white rounded-lg p-3 text-sm font-medium hover:bg-gray-900 transition">
+                className="w-full bg-gray-800 text-white rounded-lg p-3 text-sm font-medium hover:bg-gray-900 transition"
+              >
                 Send Message
               </button>
             </form>
