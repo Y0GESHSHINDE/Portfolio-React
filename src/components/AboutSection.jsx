@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../public/images/ok.jpg"
+import { Link } from "react-router-dom";
 function AboutSection() {
   return (
     <div className="bg-[#edf2f4]  ">
@@ -15,7 +16,7 @@ function AboutSection() {
           <img src={img} className="h-80 w-80   hidden md:flex   rounded-[20px] " alt="" srcset="" />
 
           </div>
-          <div className="col-span-6 text-[16px] xl:me-20  ">
+          <div className="col-span-6 text-[16px] xl:me-20 mb-3 ">
             Hi, I'm <span className="text-orange-500 font-bold">Yogesh Shinde</span> 👦🏻, an engineering student at Pravara Rural
             Engineering College, Loni, approved by AICTE and affiliated with
             SPPU. I have a keen interest in technology and enjoy exploring and
@@ -23,6 +24,9 @@ function AboutSection() {
             development and an intermediate understanding of data structures and
             algorithms (DSA), I am eager to apply my knowledge to engaging
             projects. I will be graduating in 2026.</div>
+        </div>
+        <div className="text-center">
+          <Link to={"/about"} className="p-3 border-2 border-gray-500 rounded-lg hover:text-red-600 transition duration-100">Academic Journey</Link>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 function ProjectCard({ projectName, technologies, githubLink, liveLink }) {
   return (
     <div className="max-w-sm border-[2px] border-gray-500 rounded-lg   p-5 m-3 w-[300px] h-[200px] text-center">
-      <h2 className="text-2xl font-semibold mb-3">{projectName}</h2>
+      <h2 className="text-xl font-semibold mb-3">{projectName}</h2>
       <p className="text-gray-600 mb-4">
         <strong>Technologies:</strong> {technologies.join(", ")}
       </p>

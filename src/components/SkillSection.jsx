@@ -7,8 +7,12 @@ import {
   FaJsSquare,
   FaReact,
 } from "react-icons/fa";
-import { SiFirebase, SiCplusplus, SiDatabricks } from "react-icons/si";
-
+import { SiFirebase, SiCplusplus,SiCanva,SiFigma,SiVercel, SiDatabricks } from "react-icons/si";
+import {
+  FaGithub,
+  FaCode,
+} from "react-icons/fa";
+import { BsCameraVideo } from "react-icons/bs";
 // Array of skills
 const skills = [
   { skill: "HTML", icon: <FaHtml5 /> },
@@ -32,7 +36,7 @@ function SkillSection() {
           Skills
         </h1>
 
-        <div className="  grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 place-items-center items gap-10 md:ms-20 md:me-20">
+        <div className="  grid grid-cols-3 sm:grid-cols-4  md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 place-items-center items gap-10 md:ms-20 md:me-20">
           {skills.map((skill, index) => (
             <SkillCard key={index} Skill={skill.skill} icon={skill.icon} />
           ))}

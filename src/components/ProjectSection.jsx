@@ -15,16 +15,16 @@ function ProjectSection() {
 
         <div className="flex flex-col items-center sm:flex-row justify-center gap-5" >
           <ProjectCard
-            projectName="Awesome Project"
-            technologies={["React", "Tailwind CSS", "JavaScript"]}
-            githubLink="https://github.com/yourusername/project-repo"
-            liveLink="https://your-live-project-link.com"
+            projectName="PhotoPalette"
+            technologies={["React", "Bootstrap", "JavaScript","Firebase"]}
+            githubLink="https://github.com/Y0GESHSHINDE/PhotoPallete"
+            liveLink="https://photopallete.vercel.app/"
           />
           <ProjectCard
-            projectName="Awesome Project"
-            technologies={["React", "Tailwind CSS", "JavaScript"]}
-            githubLink="https://github.com/yourusername/project-repo"
-            liveLink="https://your-live-project-link.com"
+            projectName="QuickUnits"
+            technologies={["React", "Bootstrap", "JavaScript","Firebase"]}
+            githubLink="https://github.com/Y0GESHSHINDE/QuickUnits"
+            liveLink="https://quickunits.vercel.app/"
           />
         </div>
 

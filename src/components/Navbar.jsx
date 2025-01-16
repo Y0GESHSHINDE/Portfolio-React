@@ -26,7 +26,7 @@ function Navbar() {
 
         <div className="hidden md:flex gap-10 text-black font-semibold">
           <Link
-            to="/home"
+            to="/"
             className="hover:text-yellow-300 transition duration-300">
             Home
           </Link>
@@ -70,7 +70,7 @@ function Navbar() {
             ×
           </button>
           <Link
-            to="/home"
+            to="/"
             className="hover:text-yellow-300 transition duration-300"
             onClick={toggleMenu}>
             Home
