@@ -7,7 +7,7 @@ function ExperienceCard({ jobRole, companyName, duration, icon,skills }) {
        </div>
        <div className="text-center"  >
          <h1 className="text-[13px]" > <strong>Company:-</strong> {companyName}</h1>
-         <h1 className="text-[13px]" > <strong>duration:- </strong> {duration}</h1>
+         <h1 className="text-[13px]" > <strong>Duration:- </strong> {duration}</h1>
          <h1 className="text-[13px]" > <strong>Technology :- </strong> {skills}</h1>
        </div>
      </div>

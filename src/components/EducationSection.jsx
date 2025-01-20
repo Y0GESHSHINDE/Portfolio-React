@@ -1,5 +1,8 @@
 import React from "react";
 import img from "../../public/images/ok.jpg";
+import { FaCalendarAlt } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import { MdSchool } from 'react-icons/md';
 
 function div() {
   const academicData = [
@@ -26,7 +29,7 @@ function div() {
     <div className="bg-[#edf2f4]">
       <div className="mx-auto container p-10 ">
         <h1 className="text-center text-[12px] text-sm uppercase tracking-wide font-light text-gray-600">
-          Get To Know More
+          Get To Know More 
         </h1>
         <h1 className="text-center text-[28px] lg:text-[36px] leading-7 mb-2 ibm-plex-sans-medium ">
           About me{" "}
@@ -46,10 +49,9 @@ function div() {
             an engineering student at Pravara Rural Engineering College, Loni,
             approved by AICTE and affiliated with SPPU. I have a keen interest
             in technology and enjoy exploring and implementing new solutions.
-            With beginner-level expertise in web development and an intermediate
-            understanding of data structures and algorithms (DSA), I am eager to
-            apply my knowledge to engaging projects. I will be graduating in
-            2026.
+            expertise in web development and an data structures and algorithms
+            (DSA), I am eager to apply my knowledge to engaging projects. I will
+            be graduating in 2026.
           </div>
         </div>
       </div>
@@ -70,9 +72,9 @@ function div() {
                 <h2 className="text-xl font-semibold text-gray-800 mb-2">
                   {item.title}
                 </h2>
-                <p className="text-gray-600 mb-1">{item.duration}</p>
-                <p className="text-gray-600 mb-1">{item.institution}</p>
-                <p className="text-gray-600">{item.location}</p>
+                <p className="text-gray-600 mb-1 flex items-center gap-2"><FaCalendarAlt/>{item.duration}</p>
+                <p className="text-gray-600 mb-1 flex items-center gap-2"><MdSchool/>{item.institution}</p>
+                <p className="text-gray-600 flex items-center gap-2"><FaMapMarkerAlt/>{item.location}</p>
               </div>
             ))}
           </div>

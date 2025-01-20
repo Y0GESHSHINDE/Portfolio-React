@@ -20,8 +20,8 @@ function AboutSection() {
             Hi, I'm <span className="text-orange-500 font-bold">Yogesh Shinde</span> 👦🏻, an engineering student at Pravara Rural
             Engineering College, Loni, approved by AICTE and affiliated with
             SPPU. I have a keen interest in technology and enjoy exploring and
-            implementing new solutions. With beginner-level expertise in web
-            development and an intermediate understanding of data structures and
+            implementing new solutions. expertise in web
+            development and  data structures and
             algorithms (DSA), I am eager to apply my knowledge to engaging
             projects. I will be graduating in 2026.</div>
         </div>
