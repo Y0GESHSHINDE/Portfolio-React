@@ -5,6 +5,12 @@ function ProjectSection() {
   // Define an array of project details
   const projects = [
     {
+      projectName: "AgriKart",
+      technologies: ["React", "Redux Toolkit", "Tailwind CSS", "Firebase"],
+      githubLink: "https://github.com/Y0GESHSHINDE/AgriKart",
+      liveLink: "https://agrikart.vercel.app/",
+    },    
+    {
       projectName: "PhotoPalette",
       technologies: ["React", "Bootstrap", "JavaScript", "Firebase"],
       githubLink: "https://github.com/Y0GESHSHINDE/PhotoPallete",

@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function ProjectSection() {
   return (
@@ -13,23 +13,33 @@ function ProjectSection() {
           Projects
         </h1>
 
-        <div className="flex flex-col items-center sm:flex-row justify-center gap-5" >
+        <div className="flex flex-col items-center sm:flex-row justify-center gap-5">
+          <ProjectCard
+            projectName="AgriKart"
+            technologies={["React", "Tailwind CSS", "JavaScript", "Lama"]}
+            githubLink="https://github.com/Y0GESHSHINDE/AgriKart"
+            liveLink="https://agrikart.vercel.app/"
+          />
           <ProjectCard
             projectName="PhotoPalette"
-            technologies={["React", "Bootstrap", "JavaScript","Firebase"]}
+            technologies={["React", "Bootstrap", "JavaScript", "Firebase"]}
             githubLink="https://github.com/Y0GESHSHINDE/PhotoPallete"
             liveLink="https://photopallete.vercel.app/"
           />
           <ProjectCard
             projectName="QuickUnits"
-            technologies={["React", "Bootstrap", "JavaScript","Firebase"]}
+            technologies={["React", "Bootstrap", "JavaScript", "Firebase"]}
             githubLink="https://github.com/Y0GESHSHINDE/QuickUnits"
             liveLink="https://quickunits.vercel.app/"
           />
         </div>
 
-        <div className="flex justify-center" >
-         <Link to={"#"} className="p-2 border-[2px] border-gray-500 rounded-lg mt-3 ">Viwe All Project</Link>
+        <div className="flex justify-center">
+          <Link
+            to={"/project"}
+            className="p-2 border-[2px] border-gray-500 rounded-lg mt-3 ">
+            Viwe All Project
+          </Link>
         </div>
       </div>
     </div>

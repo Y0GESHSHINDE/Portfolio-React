@@ -15,7 +15,7 @@ function Experiences() {
           <ExperienceCard
             jobRole="React.js Devloper Intern"
             companyName="The Baap Company."
-            duration="Dec 2024 - Present"
+            duration="Dec 2024 - Feb 2025"
             skills={"React,Html,Tailwind,Javascript"}
             icon={<FaReact />} //
           />
